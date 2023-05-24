@@ -9,9 +9,9 @@
     <remote name="repo" fetch="git@github.com:aquent/repo.git"/>
     <remote name="ruby-test-automation" fetch="git@github.com:aquent/ruby-test-automation.git"/>
 
-    <project name="cw-config" revision="develop" remote="cw-config" path="Aquent/development/"/>
-    <project name="db-release" revision="master" remote="db-release" path="Aquent/development/"/>
-    <project name="myaquent-web" revision="develop" remote="myaquent-web" path="Aquent/development/"/>
-    <project name="repo" revision="develop" remote="repo" path="Aquent/development/"/>
-    <project name="ruby-test-automation" revision="develop" remote="ruby-test-automation" path="Aquent/development/"/>
+    <project name="cw-config" revision="develop" remote="cw-config" path="development/"/>
+    <project name="db-release" revision="master" remote="db-release" path="development/"/>
+    <project name="myaquent-web" revision="develop" remote="myaquent-web" path="development/"/>
+    <project name="repo" revision="develop" remote="repo" path="development/"/>
+    <project name="ruby-test-automation" revision="develop" remote="ruby-test-automation" path="development/"/>
 </manifest>

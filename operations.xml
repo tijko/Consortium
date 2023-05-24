@@ -10,10 +10,10 @@
     <remote name="cw-puppet" fetch="git@github.com:aquent/cw-puppet.git"/>
     <remote name="delivery-pom" fetch="git@github.com:aquent/delivery-pom.git"/>
 
-    <project name="autorelease" revision="develop" remote="autorelease" path="Aquent/operations"/>
-    <project name="cw-ansible" revision="master" remote="cw-ansible" path="Aquent/operations/"/>
-    <project name="cw-eks" revision="master" remote="cw-eks" path="Aquent/operations"/>
-    <project name="cw-platform" revision="master" remote="cw-platform" path="Aquent/operations"/>
-    <project name="cw-puppet" revision="v2" remote="cw-puppet" path="Aquent/operations"/>
-    <project name="deliver-pom" revision="master" remote="deliver-pom" path="Aquent/operations"/>
+    <project name="autorelease" revision="develop" remote="autorelease" path="operations"/>
+    <project name="cw-ansible" revision="master" remote="cw-ansible" path="operations/"/>
+    <project name="cw-eks" revision="master" remote="cw-eks" path="operations"/>
+    <project name="cw-platform" revision="master" remote="cw-platform" path="operations"/>
+    <project name="cw-puppet" revision="v2" remote="cw-puppet" path="operations"/>
+    <project name="deliver-pom" revision="master" remote="deliver-pom" path="operations"/>
 </manifest>
