@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Copyright (C) 2023, Aquent --> 
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<manifest>
+  <!-- Remote repositories definition -->
+    <remote name="aws-tool" fetch="git@github.com:aquent/aws-tool.git"/>
+    <remote name="devops-docker" fetch="git@github.com:aquent/devops-docker.git"/>
+    <remote name="docker-aquent" fetch="git@github.com:aquent/docker-aquent.git"/>
+    <remote name="jenkins-jobs" fetch="git@github.com:aquent/jenkins-jobs.git"/>
+    <remote name="eisdev-scriptology" fetch="git@github.com:aquent/eisdev-scriptology.git"/>
+
+    <project name="aws-tool" revision="master" remote="aws-tool" path="Aquent/toolchain"/>
+    <project name="devops-docker" revision="master" remote="devops-docker" path="Aquent/toolchain/"/>
+    <project name="docker-aquent" revision="master" remote="docker-aquent" path="Aquent/toolchain/"/>
+    <project name="jenkins-jobs" revision="master" remote="jenkins-jobs" path="Aquent/toolchain/"/>
+    <project name="eisdev-scriptology" revision="master" remote="eisdev-scriptology" path="Aquent/toolchain/"/>
+</manifest>

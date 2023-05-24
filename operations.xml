@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Copyright (C) 2023, Aquent --> 
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<manifest>
+  <!-- Remote repositories definition -->
+    <remote name="autorelease" fetch="git@github.com:aquent/autorelease.git"/>
+    <remote name="cw-ansible" fetch="git@github.com:aquent/cw-ansible.git"/>
+    <remote name="cw-eks" fetch="git@github.com:aquent/cw-eks.git"/>
+    <remote name="cw-platform" fetch="git@github.com:aquent/cw-platform.git"/>
+    <remote name="cw-puppet" fetch="git@github.com:aquent/cw-puppet.git"/>
+    <remote name="delivery-pom" fetch="git@github.com:aquent/delivery-pom.git"/>
+
+    <project name="autorelease" revision="develop" remote="autorelease" path="Aquent/operations"/>
+    <project name="cw-ansible" revision="master" remote="cw-ansible" path="Aquent/operations/"/>
+    <project name="cw-eks" revision="master" remote="cw-eks" path="Aquent/operations"/>
+    <project name="cw-platform" revision="master" remote="cw-platform" path="Aquent/operations"/>
+    <project name="cw-puppet" revision="v2" remote="cw-puppet" path="Aquent/operations"/>
+    <project name="deliver-pom" revision="master" remote="deliver-pom" path="Aquent/operations"/>
+</manifest>
