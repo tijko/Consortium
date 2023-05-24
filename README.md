@@ -11,6 +11,6 @@ $ mkdir Aquent/toolchain
 
 ## Install
 ```
-$ repo init -u "https://github.com:tijko/Consortium.git"
+$ repo init -u "https://github.com/tijko/Consortium.git"
 $ repo sync
 ```
