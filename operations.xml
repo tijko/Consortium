@@ -3,17 +3,12 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 <manifest>
   <!-- Remote repositories definition -->
-    <remote name="autorelease" fetch="git@github.com:aquent/autorelease.git"/>
-    <remote name="cw-ansible" fetch="git@github.com:aquent/cw-ansible.git"/>
-    <remote name="cw-eks" fetch="git@github.com:aquent/cw-eks.git"/>
-    <remote name="cw-platform" fetch="git@github.com:aquent/cw-platform.git"/>
-    <remote name="cw-puppet" fetch="git@github.com:aquent/cw-puppet.git"/>
-    <remote name="delivery-pom" fetch="git@github.com:aquent/delivery-pom.git"/>
+    <remote name="operations" fetch="git@github.com:aquent"/>
 
-    <project name="autorelease" revision="develop" remote="autorelease" path="operations"/>
-    <project name="cw-ansible" revision="master" remote="cw-ansible" path="operations/"/>
-    <project name="cw-eks" revision="master" remote="cw-eks" path="operations"/>
-    <project name="cw-platform" revision="master" remote="cw-platform" path="operations"/>
-    <project name="cw-puppet" revision="v2" remote="cw-puppet" path="operations"/>
-    <project name="deliver-pom" revision="master" remote="deliver-pom" path="operations"/>
+    <project name="autorelease" revision="develop" remote="operations" path="operations"/>
+    <project name="cw-ansible" revision="master" remote="operations" path="operations/"/>
+    <project name="cw-eks" revision="master" remote="operations" path="operations"/>
+    <project name="cw-platform" revision="master" remote="operations" path="operations"/>
+    <project name="cw-puppet" revision="v2" remote="operations" path="operations"/>
+    <project name="deliver-pom" revision="master" remote="operations" path="operations"/>
 </manifest>
