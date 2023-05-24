@@ -3,15 +3,11 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 <manifest>
   <!-- Remote repositories definition -->
-    <remote name="aws-tool" fetch="git@github.com:aquent/aws-tool.git"/>
-    <remote name="devops-docker" fetch="git@github.com:aquent/devops-docker.git"/>
-    <remote name="docker-aquent" fetch="git@github.com:aquent/docker-aquent.git"/>
-    <remote name="jenkins-jobs" fetch="git@github.com:aquent/jenkins-jobs.git"/>
-    <remote name="eisdev-scriptology" fetch="git@github.com:aquent/eisdev-scriptology.git"/>
+    <remote name="toolchain" fetch="git@github.com:aquent"/>
 
-    <project name="aws-tool" revision="master" remote="aws-tool" path="toolchain"/>
-    <project name="devops-docker" revision="master" remote="devops-docker" path="toolchain/"/>
-    <project name="docker-aquent" revision="master" remote="docker-aquent" path="toolchain/"/>
-    <project name="jenkins-jobs" revision="master" remote="jenkins-jobs" path="toolchain/"/>
-    <project name="eisdev-scriptology" revision="master" remote="eisdev-scriptology" path="toolchain/"/>
+    <project name="aws-tool" revision="master" remote="toolchain" path="toolchain"/>
+    <project name="devops-docker" revision="master" remote="toolchain" path="toolchain/"/>
+    <project name="docker-aquent" revision="master" remote="toolchain" path="toolchain/"/>
+    <project name="jenkins-jobs" revision="master" remote="toolchain" path="toolchain/"/>
+    <project name="eisdev-scriptology" revision="master" remote="toolchain" path="toolchain/"/>
 </manifest>
