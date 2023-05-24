@@ -1,1 +1,17 @@
-aquent.xml
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Copyright (C) 2023, Aquent --> 
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<manifest>
+  <!-- Remote repositories definition -->
+    <remote name="cw-config" fetch="git@github.com:aquent/cw-config.git"/>
+    <remote name="db-release" fetch="git@github.com:aquent/db-release.git"/>
+    <remote name="myaquent-web" fetch="git@github.com:aquent/myaquent-web.git"/>
+    <remote name="repo" fetch="git@github.com:aquent/repo.git"/>
+    <remote name="ruby-test-automation" fetch="git@github.com:aquent/ruby-test-automation.git"/>
+
+    <project name="cw-config" revision="develop" remote="cw-config" path="Aquent/development/"/>
+    <project name="db-release" revision="master" remote="db-release" path="Aquent/development/"/>
+    <project name="myaquent-web" revision="develop" remote="myaquent-web" path="Aquent/development/"/>
+    <project name="repo" revision="develop" remote="repo" path="Aquent/development/"/>
+    <project name="ruby-test-automation" revision="develop" remote="ruby-test-automation" path="Aquent/development/"/>
+</manifest>
