@@ -3,7 +3,7 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 <manifest>
   <!-- Remote repositories definition -->
-    <remote name="toolchain" fetch="git@github.com:aquent"/>
+    <remote name="toolchain" fetch="https://github.com/aquent"/>
 
     <project name="aws-tool" revision="master" remote="toolchain" path="toolchain/aws-tool"/>
     <project name="devops-docker" revision="master" remote="toolchain" path="toolchain/devops-docker"/>

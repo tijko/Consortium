@@ -3,7 +3,7 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 <manifest>
   <!-- Remote repositories definition -->
-    <remote name="operations" fetch="git@github.com:aquent"/>
+    <remote name="operations" fetch="https://github.com/aquent"/>
 
     <project name="autorelease" revision="develop" remote="operations" path="operations/autorelease"/>
     <project name="cw-ansible" revision="master" remote="operations" path="operations/cw-ansible"/>

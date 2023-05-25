@@ -3,7 +3,7 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 <manifest>
   <!-- Remote repositories definition -->
-    <remote name="cloudwall" fetch="git@github.com:aquent"/>
+    <remote name="cloudwall" fetch="https://github.com/aquent"/>
 
     <project name="cw-config" revision="develop" remote="cloudwall" path="development/cw-config"/>
     <project name="db-release" revision="master" remote="cloudwall" path="development/db-release"/>
