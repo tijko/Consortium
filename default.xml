@@ -5,7 +5,7 @@
   <!-- Remote repositories definition -->
     <remote name="cloudwall" fetch="https://github.com/tijko"/>
 
-    <project name="Parrot" revision="master" remote="cloudwall" path="development"/>
-    <project name="dotfiles" revision="master" remote="cloudwall" path="development"/>
-    <project name="st" revision="main" remote="cloudwall" path="development"/>
+    <project name="Parrot" revision="master" remote="cloudwall"/>
+    <project name="dotfiles" revision="master" remote="cloudwall"/>
+    <project name="st" revision="main" remote="cloudwall"/>
 </manifest>
