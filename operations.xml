@@ -3,12 +3,8 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 <manifest>
   <!-- Remote repositories definition -->
-    <remote name="operations" fetch="git@github.com:aquent"/>
+    <remote name="ops" fetch="https://github.com/tijko"/>
 
-    <project name="autorelease" revision="develop" remote="operations" path="operations"/>
-    <project name="cw-ansible" revision="master" remote="operations" path="operations/"/>
-    <project name="cw-eks" revision="master" remote="operations" path="operations"/>
-    <project name="cw-platform" revision="master" remote="operations" path="operations"/>
-    <project name="cw-puppet" revision="v2" remote="operations" path="operations"/>
-    <project name="deliver-pom" revision="master" remote="operations" path="operations"/>
+    <project name="Parrot" revision="master" remote="ops" path="sources"/>
+    <project name="dotfiles" revision="MackBook" remote="ops" path="sources"/>
 </manifest>

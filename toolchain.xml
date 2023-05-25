@@ -3,11 +3,8 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 <manifest>
   <!-- Remote repositories definition -->
-    <remote name="toolchain" fetch="git@github.com:aquent"/>
+    <remote name="tools" fetch="https://github.com/tijko"/>
 
-    <project name="aws-tool" revision="master" remote="toolchain" path="toolchain"/>
-    <project name="devops-docker" revision="master" remote="toolchain" path="toolchain/"/>
-    <project name="docker-aquent" revision="master" remote="toolchain" path="toolchain/"/>
-    <project name="jenkins-jobs" revision="master" remote="toolchain" path="toolchain/"/>
-    <project name="eisdev-scriptology" revision="master" remote="toolchain" path="toolchain/"/>
+    <project name="dashboard" revision="procps" remote="tools" path="tools"/>
+    <project name="quikql" revision="master" remote="tools" path="tools"/>
 </manifest>
