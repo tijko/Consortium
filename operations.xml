@@ -5,10 +5,10 @@
   <!-- Remote repositories definition -->
     <remote name="operations" fetch="git@github.com:aquent"/>
 
-    <project name="autorelease" revision="develop" remote="operations" path="operations"/>
-    <project name="cw-ansible" revision="master" remote="operations" path="operations/"/>
-    <project name="cw-eks" revision="master" remote="operations" path="operations"/>
-    <project name="cw-platform" revision="master" remote="operations" path="operations"/>
-    <project name="cw-puppet" revision="v2" remote="operations" path="operations"/>
-    <project name="deliver-pom" revision="master" remote="operations" path="operations"/>
+    <project name="autorelease" revision="develop" remote="operations" path="operations/autorelease"/>
+    <project name="cw-ansible" revision="master" remote="operations" path="operations/cw-ansible"/>
+    <project name="cw-eks" revision="master" remote="operations" path="operations/cw-eks"/>
+    <project name="cw-platform" revision="master" remote="operations" path="operations/cw-platform"/>
+    <project name="cw-puppet" revision="v2" remote="operations" path="operations/cw-puppet"/>
+    <project name="delivery-pom" revision="master" remote="operations" path="operations/delivery-pom"/>
 </manifest>

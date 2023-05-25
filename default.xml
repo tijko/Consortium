@@ -5,9 +5,9 @@
   <!-- Remote repositories definition -->
     <remote name="cloudwall" fetch="git@github.com:aquent"/>
 
-    <project name="cw-config" revision="develop" remote="cloudwall" path="development/"/>
-    <project name="db-release" revision="master" remote="cloudwall" path="development/"/>
-    <project name="myaquent-web" revision="develop" remote="cloudwall" path="development/"/>
-    <!-- <project name="repo" revision="develop" remote="cloudwall" path="development/"/> -->
-    <project name="ruby-test-automation" revision="develop" remote="cloudwall" path="development/"/>
+    <project name="cw-config" revision="develop" remote="cloudwall" path="development/cw-config"/>
+    <project name="db-release" revision="master" remote="cloudwall" path="development/db-release"/>
+    <project name="myaquent-web" revision="develop" remote="cloudwall" path="development/myaquent-web"/>
+    <project name="repo" revision="develop" remote="cloudwall" path="development/repo"/> -->
+    <project name="ruby-test-automation" revision="develop" remote="cloudwall" path="development/ruby-test-automation"/>
 </manifest>

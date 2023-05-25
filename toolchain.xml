@@ -5,9 +5,9 @@
   <!-- Remote repositories definition -->
     <remote name="toolchain" fetch="git@github.com:aquent"/>
 
-    <project name="aws-tool" revision="master" remote="toolchain" path="toolchain"/>
-    <project name="devops-docker" revision="master" remote="toolchain" path="toolchain/"/>
-    <project name="docker-aquent" revision="master" remote="toolchain" path="toolchain/"/>
-    <project name="jenkins-jobs" revision="master" remote="toolchain" path="toolchain/"/>
-    <project name="eisdev-scriptology" revision="master" remote="toolchain" path="toolchain/"/>
+    <project name="aws-tool" revision="master" remote="toolchain" path="toolchain/aws-tool"/>
+    <project name="devops-docker" revision="master" remote="toolchain" path="toolchain/devops-docker"/>
+    <project name="docker-aquent" revision="master" remote="toolchain" path="toolchain/docker-aquent"/>
+    <project name="jenkins-jobs" revision="master" remote="toolchain" path="toolchain/jenkins-jobs"/>
+    <project name="eisdev-scriptology" revision="master" remote="toolchain" path="toolchain/eisdev-scriptology"/>
 </manifest>
